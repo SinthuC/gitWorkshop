@@ -10,7 +10,7 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
 
   }
-  generatePee(){
+  Pee(){
     this.navCtrl.push(PeePage);
   }
 }

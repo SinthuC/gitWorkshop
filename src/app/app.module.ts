@@ -12,7 +12,7 @@ import { PeePage } from '../pages/pee/pee';
   declarations: [
     MyApp,
     HomePage,
-    PeePage
+    PeePage,
   ],
   imports: [
     BrowserModule,
@@ -22,7 +22,7 @@ import { PeePage } from '../pages/pee/pee';
   entryComponents: [
     MyApp,
     HomePage,
-    PeePage
+    PeePage,
   ],
   providers: [
     StatusBar,
