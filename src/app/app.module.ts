@@ -10,6 +10,7 @@ import { HomePage } from '../pages/home/home';
 import { PomPage } from '../pages/pom/pom';
 import { KnewPage } from '../pages/knew/knew';
 import { PeePage } from '../pages/pee/pee';
+import {JormPage} from '../pages/jorm/jorm';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { PeePage } from '../pages/pee/pee';
     PomPage,
     KnewPage,
     PeePage,
+    JormPage
 
   ],
   imports: [
@@ -32,6 +34,7 @@ import { PeePage } from '../pages/pee/pee';
     PomPage,
     KnewPage,
     PeePage,
+    JormPage
 
   ],
   providers: [

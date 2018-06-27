@@ -4,6 +4,7 @@ import { NavController } from 'ionic-angular';
 import { PomPage } from '../pom/pom';
 import {KnewPage} from '../knew/knew';
 import { PeePage } from '../pee/pee';
+import { JormPage } from '../jorm/jorm';
 
 @Component({
   selector: 'page-home',
@@ -25,5 +26,7 @@ export class HomePage {
   Pee(){
     this.navCtrl.push(PeePage);
   }
-
+  gotoJormPage(){
+    this.navCtrl.push(JormPage);
+  }
 }
